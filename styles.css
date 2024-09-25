@@ -1,0 +1,176 @@
+/* General page styles */
+body {
+    background-color: #f3e3d5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100vh;
+  }
+  
+
+  .recipe-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 700px;
+  }
+  
+  
+  .recipe-image {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+ 
+  .recipe-content {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #7e0909;
+    margin-bottom: 10px;
+  }
+  
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  strong {
+    color: #333;
+  }
+  
+  
+  .recipe-section {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #744141;
+  }
+  
+  td:first-child {
+    color: #555;
+  }
+  
+  td:last-child {
+    font-weight: bold;
+    text-align: right;
+  }
+
+  
+  
+  /* Responsive Design */
+  
+  /* For Mobile (max-width: 375px) */
+  @media (max-width: 375px) {
+    body {
+      padding: 10px;
+    }
+  
+    .recipe-card {
+      width: 100%;
+      box-shadow: none; 
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    .recipe-content {
+      padding: 15px;
+    }
+  
+    td {
+      font-size: 14px;
+    }
+  }
+  
+  /* For Desktop (min-width: 1440px) */
+  @media (min-width: 1440px) {
+    body {
+      padding: 40px;
+    }
+  
+    .recipe-card {
+      width: 60%; 
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    .description {
+      font-size: 18px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    .recipe-content {
+      padding: 30px;
+    }
+  
+    td {
+      font-size: 16px;
+    }
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #7e0909;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
